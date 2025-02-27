@@ -22,5 +22,5 @@ Para realizar este proyecto he utilizado Sqlite, con una version para javascript
 - Solo podía testear la aplicacion en un navegador Web así que se utilizó una libreria Sqlite de javascript.
 - La librería sqflite para javascrip tiene un conflicto con la librería sqflite para android, si la aplicación se ejecuta en un emulador Android se debe remover la librería sqflite javascript antes de compilar la aplicación y eliminar las referencias a esta librería.
 -En el archivo main.dart que inicia la aplicación se encuentra (import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';) y un condicional como únicas referencias a la librería sqflite javascript los cuales deberian eliminarse para desplegar la aplicación en Android.
-Primer usuario: fass@uce.edu.ec  contraseña: fass3425
-Segundo usuario: alfa@uce.edu.ec contraeña: alfa3425
+- Primer usuario: fass@uce.edu.ec  contraseña: fass3425
+- Segundo usuario: alfa@uce.edu.ec contraeña: alfa3425
